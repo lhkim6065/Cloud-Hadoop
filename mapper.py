@@ -1,6 +1,8 @@
-#!/usr/bin/python3
-# -*-coding:utf-8 -*
-import sys 
+#!/usr/bin/env python3
+import sys
+import re
+
+word_pattern = re.compile(r'\b[a-zA-Z]+\b')
 
 for line in sys.stdin:
     words = word_pattern.findall(line)
