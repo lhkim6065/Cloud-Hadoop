@@ -1,6 +1,6 @@
 # Cloud-Hadoop
 
-We used the Austen, Shelley, and Bronte texts. 
+I used the Austen, Shelley, and Bronte texts. 
 
 ```
 hdfs dfs -rm -r /user/sandbox/words
